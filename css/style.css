@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid black;
+}
+
+.navbar {
+  display: flex;
+  margin: 20px;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.navbar a:hover {
+  border-bottom: 1.5px solid black;
+}
+
+article {
+  border-bottom: 1.5px solid black;
+  margin-top: 50px;
+}
+
+article h4 {
+  margin-left: 200px;
+}
+
+article h2 {
+  margin-top: -15px;
+  margin-left: 200px;
+}
+
+article p {
+  margin-top: -15px;
+  width: 45%;
+  display: flex;
+  margin-left: 200px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1.5px solid black;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.button a {
+  color: black;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(128, 184, 128);
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  display: flex;
+  width: 500px;
+  height: auto;
+  margin-right: 200px;
+  margin-top: -150px;
+}
+
+section {
+  border-bottom: 1.5px solid black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 200px;
+  min-width: 100%;
+  background-color: rgb(128, 184, 128);
+}
+
+.container-2 {
+  width: 33%;
+  text-align: center;
+  display: block;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.container-3 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.container-3 h2 {
+  text-align: center;
+  margin-left: -10px;
+}
+
+.container-3 p {
+  display: block;
+  margin: 0 auto;
+}
+
+.boxes {
+  display: flex;
+  margin-bottom: 90px;
+  border-bottom: 1.5px solid black;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: greenyellow;
+  border: 1.5px solid white;
+  border-radius: 20px;
+  transition: all 0.9s ease-in;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.button-1 {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1.5px solid black;
+  background-color: transparent;
+  font-family: "Space Grotesk", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.button-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.button-1:hover {
+  background-color: white;
+}
+
+.services {
+  text-align: center;
+}
+
+.whynow {
+  border-bottom: 1.5px solid black;
+  background-color: rgb(75, 112, 78);
+  padding: 20px;
+}
+
+.whynow h2 {
+  text-align: center;
+}
+
+.whynow p {
+  text-align: center;
+  margin-top: -15px;
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+form {
+  background-color: rgb(142, 235, 134);
+  min-height: 20vh;
+  padding: 20px;
+  border-bottom: 1.5px solid black;
+}
+
+form h2 {
+  text-align: center;
+}
+
+form input {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1.5px solid black;
+  font-family: "Space Grotesk", sans-serif;
+  color: black;
+  text-align: center;
+  background-color: trasparent;
+}
+
+.submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 60px;
+  font-family: "Space Grotesk";
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.message {
+  height: 50px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  margin-top: -80px;
+  padding: 20px;
+}
